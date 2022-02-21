@@ -57,11 +57,22 @@ However, newer deep learning models such as Tabnet that have been shown to out p
 
 ![image](https://user-images.githubusercontent.com/81459293/154811054-b9eb7a04-a89d-4c0f-868e-4ea197c5280d.png)
 
-Hence to maximise the cpabilites of both models, a stacked ensamble of gradient boosted trees, XGBoost and LightGBM, and TabNet which have been shown (paper in refrences) to out perfrom both models. It is done by using the prediction outputs of the individual different models and using it as inputs for a meta model like a linear regression to have a final prediction.
+Hence to maximise the cpabilites of both models, a stacked ensamble of gradient boosted trees, XGBoost and LightGBM, and TabNet which have been shown (paper in refrences) to out perfrom both models. It is done by using the prediction outputs of the individual different models and using it as inputs for a meta model, in this model a linear regression is used, to have a final prediction.
 
 # How to use
 
 ## API
+
+The API was used using FASTAPI and can be run locally.
+
+**Prediction**
+
+POST /predict/{json containing data}
+
+To utilize the model for predictions, a sample.py file is provided. a POST can be made using the python library requests to the local server taking in the data as json format.
+
+
+
 
 ## Docker
 
