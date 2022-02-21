@@ -73,7 +73,7 @@ POST /predict/{json containing data}
 
 To utilize the model for predictions, a sample.py file is provided. a POST can be made using the python library requests to the local server taking in the data as json format.
 
-The keys for the dictionary containing the data are the feature names and the values is a lists of values in that feature column, allowing for the prediction of multiple predictions
+The keys for the dictionary containing the data are the feature names and the values are a lists of values in that feature column, allowing for the prediction of multiple predictions
 
 The POST methord will either return a dictionary with the predictions, or an error code if the input in not formatted correctly.
 
@@ -82,7 +82,17 @@ The POST methord will either return a dictionary with the predictions, or an err
 ### Pull from docker hub 
 A Docker image has been put onto Docker Hub and a docker continer with the model can be initalized by pulling it from Docker Hub
 
-### Create own image from github repository 
+### Create own image from github repository code
+Download all the files in the repository
+From the command line enter intot he directory and build the docker file with this command
+
+![image](https://user-images.githubusercontent.com/81459293/154985956-2d588107-630f-4581-96c7-8e2ee28d2d49.png)
+
+Make sure that you have docker downloaded on your computer.
+
+Create the docker container to deploy the API using this command
+
+![image](https://user-images.githubusercontent.com/81459293/154986681-4e39bcc5-fd37-416c-b51e-493671848ecf.png)
 
 # Refrences
 Facets:https://pair-code.github.io/facets/
