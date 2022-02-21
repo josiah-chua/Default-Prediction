@@ -57,7 +57,7 @@ However, newer deep learning models such as Tabnet that have been shown to out p
 
 ![image](https://user-images.githubusercontent.com/81459293/154811054-b9eb7a04-a89d-4c0f-868e-4ea197c5280d.png)
 
-Hence to maximise the cpabilites of both models, a stacked ensamble of gradient boosted trees, XGBoost and LightGBM, and TabNet which have been shown (paper in refrences) to out perfrom both models. It is done by using the prediction outputs of the individual different models and using it as inputs for a meta model, in this model a linear regression is used, to have a final prediction.
+Hence to maximise the cpabilites of both models, a stacked ensamble of gradient boosted trees, XGBoost and LightGBM, and TabNet which have been shown (paper in refrences) to out perform both models. It is done by using the prediction outputs of the individual different models and using it as inputs for a meta model, in this model a linear regression is used, to have a final prediction.
 
 ## Performance
 
