@@ -59,6 +59,8 @@ However, newer deep learning models such as Tabnet that have been shown to out p
 
 Hence to maximise the cpabilites of both models, a stacked ensamble of gradient boosted trees, XGBoost and LightGBM, and TabNet which have been shown (paper in refrences) to out perfrom both models. It is done by using the prediction outputs of the individual different models and using it as inputs for a meta model, in this model a linear regression is used, to have a final prediction.
 
+## Performance
+
 # How to use
 
 ## API
@@ -77,8 +79,10 @@ The POST methord will either return a dictionary with the predictions, or an err
 
 ## Docker
 
+### Pull from docker hub 
 A Docker image has been put onto Docker Hub and a docker continer with the model can be initalized by pulling it from Docker Hub
 
+### Create own image from github repository 
 
 # Refrences
 Facets:https://pair-code.github.io/facets/
