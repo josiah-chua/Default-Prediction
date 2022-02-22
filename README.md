@@ -119,7 +119,6 @@ remove:
 
 ### Create own image from github repository code
 
-Download the zip file from this repository
 From the command line enter into the directory and build the docker file with this command, setting anyname to what you want to call the image
 
 ![image](https://user-images.githubusercontent.com/81459293/155047806-c2db0769-6171-4a66-8e3b-d8cafd007d05.png)
