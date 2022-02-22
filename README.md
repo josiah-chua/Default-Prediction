@@ -67,7 +67,7 @@ The F1 metric was also used for hyperparameter turning, where the tops 2 hyperpa
 
 The evaluation of the performace of the models were tested using 10 fold cross validation and the average F1 score was taken along with the average recall and average precision to see what the change is F1 was due to, a change in recall, a change of precision or both. This cross validation was done with and withoout the sampling and engineered features to see how good were these techniques are at improving performace.
 
-As we can see as a whole the there was an increase in F1 score with more of such techniques employed, with recall increasing with precision decreasing slightly, showing that the models are indeed impoving at its ability to detect defaulters. The odd one out was the TabNet model which worked better without the engineered features. this indicates that better feature enginnering techniques could be enmployed or it could be the lack of tuning. 
+As we can see as a whole the there was an increase in F1 score with more of such techniques employed, with recall increasing with precision decreasing slightly, showing that the models are indeed impoving at its ability to detect defaulters. The odd one out was the TabNet model which worked better with sampling but without the engineered features. this indicates that better feature enginnering techniques could be enmployed or it could be the lack of tuning. 
 
 The stacked ensemble and TabNet had precision decreased significatly when F1 scores increased which has to be looked into more.
 
