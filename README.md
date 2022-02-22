@@ -94,19 +94,24 @@ The POST methord will either return a dictionary with the predictions, or an err
 ### Pull from docker hub 
 A Docker image has been put onto Docker Hub and a docker continer with the model can be initalized by pulling it from Docker Hub
 
+![image](https://user-images.githubusercontent.com/81459293/155050181-4c85f88c-2cea-4e6b-b3b5-cecf630a20d7.png)
 
+From the command line use this command to run the docker file:
+
+![image](https://user-images.githubusercontent.com/81459293/155047848-e2e99eab-118e-4511-82b0-5c0c02a90f7b.png)
 
 ### Create own image from github repository code
 
 Download all the files in the repository
-From the command line enter into the directory and build the docker file with this command
+From the command line enter into the directory and build the docker file with this command, setting anyname to what you want to call the image
 
-![image](https://user-images.githubusercontent.com/81459293/154985956-2d588107-630f-4581-96c7-8e2ee28d2d49.png)
+![image](https://user-images.githubusercontent.com/81459293/155047806-c2db0769-6171-4a66-8e3b-d8cafd007d05.png)
 
 Make sure that you have docker downloaded on your computer.
 Create the docker container to deploy the API using this command
 
-![image](https://user-images.githubusercontent.com/81459293/154986681-4e39bcc5-fd37-416c-b51e-493671848ecf.png)
+![image](https://user-images.githubusercontent.com/81459293/155047699-3562dcff-13dd-47af-a7da-f85c258524d2.png)
+
 
 # Refrences
 Facets:https://pair-code.github.io/facets/
