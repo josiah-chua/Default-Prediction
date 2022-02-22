@@ -71,7 +71,7 @@ As we can see as a whole the there was an increase in F1 score with more of such
 
 The stacked ensemble and TabNet had precision decreased significatly when F1 scores increased which has to be looked into more.
 
-Another interesting point is that the stacked ensemble did not do as well as the boosted trees. This could be due to the fact that the individual modeles were tuned seperately, and while boosted trees are fast to tune, Tabnet took a cosiderably longer amount of time to do so. Futher improvement would definiely include turninng the Tabnet model more and doing hyparameter on the stacked model as a whole. Improvements to the meta model coule be done to such as putting it though an ANN as the relationship between the models preditions may not be linear and certain preditctions should be allocated more weight.
+Another interesting point is that the stacked ensemble did not do as well as the boosted trees. This could be due to the fact that the individual modeles were tuned seperately, and while boosted trees are fast to tune, Tabnet took a cosiderably longer amount of time to do so. Futher improvement would definiely include turninng the Tabnet model more and doing hyparameter tuning on the stacked model as a whole. Improvements to the meta model could be done to such as putting it though an ANN as the relationship between the models predictions may not be linear and certain preditctions should be allocated more weight.
 
 # How to use
 
