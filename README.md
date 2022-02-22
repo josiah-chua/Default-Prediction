@@ -109,7 +109,7 @@ From the command line enter into the directory and build the docker file with th
 
 ![image](https://user-images.githubusercontent.com/81459293/155047806-c2db0769-6171-4a66-8e3b-d8cafd007d05.png)
 
-Create the docker container to deploy the API using this command
+Create the docker container to deploy the API using this command. Remeber tochange the file addresses accroding to the comments as the docker file puts cpies the files into another directory called app/
 
 ![image](https://user-images.githubusercontent.com/81459293/155047699-3562dcff-13dd-47af-a7da-f85c258524d2.png)
 
