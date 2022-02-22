@@ -98,9 +98,24 @@ A Docker image has been put onto Docker Hub and a docker continer with the model
 
 ![image](https://user-images.githubusercontent.com/81459293/155050181-4c85f88c-2cea-4e6b-b3b5-cecf630a20d7.png)
 
-From the command line use this command to run the docker file:
+From the command line use this command to run the docker file, remember to name your container you are running:
 
-![image](https://user-images.githubusercontent.com/81459293/155047848-e2e99eab-118e-4511-82b0-5c0c02a90f7b.png)
+![image](https://user-images.githubusercontent.com/81459293/155118837-4ef4de46-b91e-4bde-bab2-cbae047b80d8.png)
+
+Other basic commands
+
+stop:
+
+![image](https://user-images.githubusercontent.com/81459293/155119467-90886312-b07c-4063-8409-202c69ed5c6a.png)
+
+start:
+
+![image](https://user-images.githubusercontent.com/81459293/155119551-f6eefb13-7cdc-4dfc-b684-9e7a63f02590.png)
+
+remove:
+
+![image](https://user-images.githubusercontent.com/81459293/155119977-9c26266a-09a7-4d1b-aced-d77e7515137b.png)
+
 
 ### Create own image from github repository code
 
@@ -109,7 +124,7 @@ From the command line enter into the directory and build the docker file with th
 
 ![image](https://user-images.githubusercontent.com/81459293/155047806-c2db0769-6171-4a66-8e3b-d8cafd007d05.png)
 
-Create the docker container to deploy the API using this command. Remeber tochange the file addresses accroding to the comments as the docker file puts cpies the files into another directory called app/
+Create the docker container to deploy the API using this command. Remeber to change the file addresses accroding to the comments as the docker file puts cpies the files into another directory called app/
 
 ![image](https://user-images.githubusercontent.com/81459293/155047699-3562dcff-13dd-47af-a7da-f85c258524d2.png)
 
