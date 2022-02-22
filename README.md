@@ -81,15 +81,17 @@ The API was used using FASTAPI and can be run locally.
 
 **Prediction**
 
-POST /predict/{json containing data}
+POST /predict/{dictionary containing data in json format}
 
 To utilize the model for predictions, a sample.py file is provided. a POST can be made using the python library requests to the local server taking in the data as json format.
 
 The keys for the dictionary containing the data are the feature names and the values are a lists of values in that feature column, allowing for the prediction of multiple predictions
 
-The POST methord will either return a dictionary with the predictions, or an error code if the input in not formatted correctly.
+The POST methord will either return a dictionary {'prediction': 2D array of ID and prediction}, or an error code {'details' : ERROR .....} if the input in not formatted correctly.
 
 ## Docker
+
+Please ensure that you have docker set up properly on your computer.
 
 ### Pull from docker hub 
 A Docker image has been put onto Docker Hub and a docker continer with the model can be initalized by pulling it from Docker Hub
@@ -107,7 +109,6 @@ From the command line enter into the directory and build the docker file with th
 
 ![image](https://user-images.githubusercontent.com/81459293/155047806-c2db0769-6171-4a66-8e3b-d8cafd007d05.png)
 
-Make sure that you have docker downloaded on your computer.
 Create the docker container to deploy the API using this command
 
 ![image](https://user-images.githubusercontent.com/81459293/155047699-3562dcff-13dd-47af-a7da-f85c258524d2.png)
