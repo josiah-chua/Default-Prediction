@@ -119,6 +119,10 @@ remove:
 
 ### Create own image from github repository code
 
+Download all the files in this repository and put them in one directory and create a virtual environment.
+
+![image](https://user-images.githubusercontent.com/81459293/155123576-192c5ba0-3f05-4661-911d-aaa6e04fb4ab.png)
+
 From the command line enter into the directory and build the docker file with this command, setting anyname to what you want to call the image
 
 ![image](https://user-images.githubusercontent.com/81459293/155047806-c2db0769-6171-4a66-8e3b-d8cafd007d05.png)
