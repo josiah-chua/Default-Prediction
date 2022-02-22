@@ -100,21 +100,21 @@ A Docker image has been put onto Docker Hub and a docker continer with the model
 
 From the command line use this command to run the docker file, remember to name your container you are running:
 
-![image](https://user-images.githubusercontent.com/81459293/155118837-4ef4de46-b91e-4bde-bab2-cbae047b80d8.png)
+![image](https://user-images.githubusercontent.com/81459293/155121102-753fde19-6a02-485b-bef3-09d2b999e300.png)
 
 Other basic commands
 
 stop:
 
-![image](https://user-images.githubusercontent.com/81459293/155119467-90886312-b07c-4063-8409-202c69ed5c6a.png)
+![image](https://user-images.githubusercontent.com/81459293/155121317-ea331fe2-b4cd-4e12-bf27-a7b48740a534.png)
 
 start:
 
-![image](https://user-images.githubusercontent.com/81459293/155119551-f6eefb13-7cdc-4dfc-b684-9e7a63f02590.png)
+![image](https://user-images.githubusercontent.com/81459293/155121407-b4d561f1-e490-458d-8176-7790a25bcf53.png)
 
 remove:
 
-![image](https://user-images.githubusercontent.com/81459293/155119977-9c26266a-09a7-4d1b-aced-d77e7515137b.png)
+![image](https://user-images.githubusercontent.com/81459293/155121662-d97976a1-a44e-4f94-8419-b12bad338f82.png)
 
 
 ### Create own image from github repository code
